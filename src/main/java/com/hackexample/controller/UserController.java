@@ -23,6 +23,6 @@ public class UserController {
 
     @Get("/{id}")
     public User getUserById(@PathVariable long id) {
-        return new User().id(id).name("ace");
+        return new User().id(id).name("another name");
     }
 }
